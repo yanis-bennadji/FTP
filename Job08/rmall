@@ -1,0 +1,6 @@
+sudo deluser --remove-home Merry
+sudo deluser --remove-home Pippin
+sudo apt remove -y proftpd*
+sudo apt remove -y openssl
+rm -r /home/testvm/testfilezilla
+apt remove -y sudo
